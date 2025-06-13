@@ -1,0 +1,140 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #66cc66, #66cc66);  /* Gradasi hijau pastel ke putih */
+    color: #333;
+    padding: 20px 0;
+    background-attachment: fixed;  /* Memastikan latar belakang tidak bergerak saat scroll */
+}
+
+/* Header styling */
+header {
+    background-color: #66cc66;  /* Latar belakang header hijau pastel */
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;  /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;  /* Teks header putih */
+}
+
+/* Form section styling */
+.card {
+    background-color: #ffffff;  /* White card background */
+    padding: 20px;
+    margin: 0 auto 20px auto;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);  /* Shadow for better depth */
+}
+
+/* Card body styling */
+.card-body {
+    padding: 20px;
+}
+
+/* Buttons Styling */
+.card .btn-success {
+    background-color: #66cc66;  /* Green button */
+    color: white;
+    border-radius: 5px;
+}
+
+.card .btn-success:hover {
+    background-color: #4db84d;  /* Darker green on hover */
+}
+
+.card .btn-lg {
+    font-weight: bold; /* Make text bold for larger buttons */
+}
+
+.card .btn i {
+    margin-left: 10px; /* Space between text and icon */
+}
+
+/* Table styling */
+.table-bordered {
+    border: 1px solid #ddd; /* Light border for the table */
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 15px;
+}
+
+.table th {
+    background-color: #66cc66; /* Green header background */
+    color: white;
+}
+
+.table td {
+    font-size: 1rem;
+}
+
+.table .table-success {
+    background-color: #d4edda !important;  /* Light green background for completed tasks */
+}
+
+/* Task list styling */
+.list-group-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+}
+
+.list-group-item .status {
+    font-size: 0.9rem;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+.status.belum {
+    background-color: #f44336;  /* Red background for 'belum' tasks */
+    color: white;
+}
+
+.status.selesai {
+    background-color: #4CAF50;  /* Green background for 'selesai' tasks */
+    color: white;
+}
+
+.list-group-item input[type="checkbox"] {
+    transform: scale(1.2); /* Slightly enlarge checkbox */
+}
+
+/* Button Hover Effects */
+.list-group-item .btn:hover {
+    opacity: 0.8;
+}
+
+/* Floating action button for adding tasks */
+.card .btn-lg {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* Icon Styling */
+.bi {
+    font-size: 1.2rem;
+}
